@@ -15,8 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bananas"></activity>
-        <service android:name=".VishIntentService"/>
+        <activity android:name=".bananas" />
+
+        <service android:name=".VishIntentService" />
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
