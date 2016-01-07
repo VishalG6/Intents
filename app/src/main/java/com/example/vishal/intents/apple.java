@@ -13,6 +13,8 @@ public class apple extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_apple);
+        Intent intent = new Intent(this, VishIntentService.class);
+        startService(intent);
     }
 
     public void onClick(View view){

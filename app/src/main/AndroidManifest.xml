@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".bananas"></activity>
+        <service android:name=".VishIntentService"/>
     </application>
 
 </manifest>
